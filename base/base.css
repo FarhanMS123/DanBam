@@ -1,0 +1,21 @@
+@import url('./navbar.css');
+
+@font-face {
+    font-family: 'Clip';
+    src: url('../clip/Clip.ttf');
+}
+
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+}
+
+body{
+    background: hsl(0,0%,0%);
+    color: rgba(255,255,255,0.82);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

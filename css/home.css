@@ -1,0 +1,16 @@
+body{
+    background-image: radial-gradient(circle at 100% 100vh, rgba(100,8,196,0.3), rgba(100,8,196, 0));
+    /* background-attachment: fixed; */
+    /* background-size: 12em 12em;
+    background-repeat: no-repeat; */
+}
+
+header{
+    width:100%;
+    min-height: 100%;
+}
+
+#info{
+    width:100%;
+    min-height: 100%;
+}
