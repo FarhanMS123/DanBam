@@ -1,16 +1,101 @@
 body{
     background-image: radial-gradient(circle at 100% 100vh, rgba(100,8,196,0.3), rgba(100,8,196, 0));
-    /* background-attachment: fixed; */
-    /* background-size: 12em 12em;
-    background-repeat: no-repeat; */
+    background-attachment: scroll;
+    background-position: left top;
+    background-repeat: no-repeat;
 }
 
 header{
     width:100%;
-    min-height: 100%;
+    height: calc(100vh - 1px);
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #6408c4;
+}
+
+header .slides{
+    height: 100%;
+    width:min-content;
+    overflow:hidden;
+    transition: transform 1s cubic-bezier(0, 0, 0.2, 1) 0s;
+    display: flex;
+}
+
+header .slides .slide{
+    position: relative;
+}
+
+header .slides .slide img{
+    width: 100vw;
+    height: 100%;
+}
+
+header .slides .slide .desc{
+    position: absolute;
+    color: white;
+    right: 0px;
+    top: 0px;
+    height:100%;
+    width:calc(40% - 6rem);
+    display: flex;
+    align-items: center;
+    padding: 0em 4rem 0em 2rem;
+    background: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+header .nav{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav .control{
+    display: flex;
+}
+
+header .nav .control button{
+    margin: 0px;
+    padding: 0px;
+    height: 3rem;
+    width:3rem;
+    border:none;
+    border-top:1px solid #6408c4;
+    border-left:1px solid #6408c4;
+    border-radius: 0px;
+    background: none;
+    cursor: pointer;
+    transition: background 200ms ease-out 0s;
+}
+
+header .nav .control button:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+header .nav .indicator{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:18em;
+}
+
+header .nav .indicator .point{
+    height:5px;
+    width:calc(18em / 3 - 1em);
+    border: 1px solid #6408c4;
+    box-shadow: #6408c4 0px 0px 5px 0px;
+    transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1) 0s, 
+                background 200ms cubic-bezier(0, 0, 0.2, 1) 0s;
+}
+
+header .nav .indicator .point.active{
+    box-shadow: #6408c4 0px 0px 10px 3px;
+    background: #6408c4;
 }
 
 #info{
     width:100%;
-    min-height: 100%;
+    height: 100vh;
 }

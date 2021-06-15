@@ -5,15 +5,16 @@
     src: url('../clip/Clip.ttf');
 }
 
-html, body{
-    height: 100%;
-    box-sizing: border-box;
-    overflow: auto;
-    position: relative;
+html{
+    overflow-y: auto;
 }
 
 body{
-    background: hsl(0,0%,0%);
+    overflow:visible;
+}
+
+body{
+    background-color: hsl(0,0%,0%);
     color: rgba(255,255,255,0.82);
     margin: 0px;
     padding: 0px;
