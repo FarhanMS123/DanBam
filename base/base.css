@@ -5,6 +5,10 @@
     src: url('../clip/Clip.ttf');
 }
 
+.font-clip{
+    font-family: 'Clip', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 html{
     overflow-y: auto;
 }
