@@ -6,7 +6,7 @@ $(document).ready(function(){
     var indicator = $("header .nav .indicator");
 
     for(i=0; i<slide.length; i++){
-        indicator.append($(`<div class="point${i==0 ? ' active' : ''}"></div>`));
+        indicator.append($(`<div class="point${i==0 ? ' active' : ''}" style="width:calc(100% / ${slide.length} - 1rem)"></div>`));
     }
 
     var point = indicator.children();
@@ -18,7 +18,6 @@ $(document).ready(function(){
         if(slideIndex == slide.length) slideIndex = 0;
 
         slides.css({
-            // transform: `translateX(-${100 * slideIndex}%)`
             transform: `translateX(calc(-100% * ${slideIndex} / ${slide.length}))`
         });
         point.eq(slideIndex).addClass('active');
