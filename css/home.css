@@ -1,9 +1,10 @@
 body{
     background-image: radial-gradient(circle at 100% 100vh, rgba(100,8,196,0.3), rgba(100,8,196, 0)),
-                      radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100,8,196,0.3), rgba(100,8,196, 0) 50%);
-    background-attachment: scroll, scroll;
-    background-position: left top, left top;
-    background-repeat: no-repeat, no-repeat;
+                      radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100,8,196,0.3), rgba(100,8,196, 0) 50%),
+                      linear-gradient(to top, rgba(100,8,196,0.3) 0%, rgba(100,8,196, 0) 30%);
+    background-attachment: scroll, scroll, scroll;
+    background-position: left top, left top, left top;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 header{
@@ -28,7 +29,6 @@ header .slides .slide{
 
 header .slides .slide img{
     width: 100vw;
-    height: 100%;
 }
 
 header .slides .slide .desc{
@@ -37,11 +37,11 @@ header .slides .slide .desc{
     right: 0px;
     top: 0px;
     height:100%;
-    width:calc(40% - 6rem);
+    width:calc(50% - 16rem);
     display: flex;
     align-items: center;
-    padding: 0em 4rem 0em 2rem;
-    background: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+    padding: 0em 4rem 0em 12rem;
+    background: linear-gradient(to left, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
 }
 
 header .nav{
@@ -98,7 +98,7 @@ header .nav .indicator .point.active{
 
 #info{
     width:100%;
-    padding: 6em 0em;
+    padding: 6rem 0rem 3rem 0rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -108,6 +108,13 @@ header .nav .indicator .point.active{
     width: 30%;
     position: relative;
     overflow: visible;
+    border-radius: 100%;
+    border: red;
+    /* background-image: radial-gradient(circle at 50% 50%, rgba(100,8,196,0.3), rgba(100,8,196,0.15) 100%);
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-repeat: no-repeat, no-repeat;
+    box-shadow: rgba(100,8,196, 0.2) 0px 0px 100px 100px; */
 }
 
 #info .img img{
@@ -121,4 +128,84 @@ header .nav .indicator .point.active{
 
 #info .cap h1{
     font-size: 2em;
+}
+
+#recommendation{
+    width: 100%;
+    padding: 3rem 0rem;
+    /* background: red; */
+}
+
+#recommendation h1{
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#recommendation .list{
+    width: calc(100% - 8rem);
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 0rem 4rem;
+}
+
+#recommendation .list .item{
+    display: flex;
+    align-items: center;
+    margin: 0rem 4rem 4rem 4rem;
+}
+
+#recommendation .list .item .img{
+    background: hsl(0, 0%, 95%);
+    width:5rem;
+    height: 5rem;
+    z-index: 1;
+    margin-right: -2.5rem;
+    border-radius: 4px;
+}
+
+#recommendation .list .item .desc{
+    background: rgb(100,8,196);
+    width: 15rem;
+    height: 6rem;
+    position: relative;
+    z-index: 0;
+    border-radius: 4px;
+}
+
+#location{
+    width:calc(100% - 2rem);
+    padding:8rem 1rem 9rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#location .map{
+    width: 30%;
+}
+
+#location .map h1{
+    font-size: 3rem;
+    margin: -5rem 0rem 3rem 0rem;
+}
+
+#location .map img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+#location .contact{
+    width:30%;
+}
+
+#location .contact h3{
+    font-size: 2em;
+}
+
+footer{
+    padding:1rem 0.5rem;
+    text-align: center;
 }

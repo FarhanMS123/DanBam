@@ -49,13 +49,15 @@
     max-height:calc(100vh - 2em);
     height: 3em;
     overflow: hidden;
-    transition: all 1s ease-out 0s;
+    transition: opacity 400ms ease-out 0s,
+                width 400ms ease-out 0s,
+                height 400ms ease-out 200ms;
     display: none;
 }
 
 #db-nav .menu .list.show{
     opacity: 1;
-    height: calc(3rem * 6);
+    height: calc(3rem * 7);
     width:13rem;
 }
 
