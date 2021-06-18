@@ -1,3 +1,5 @@
+@import url('../base/base.css');
+
 body{
     background-image: radial-gradient(circle at 100% 100vh, rgba(100,8,196,0.3), rgba(100,8,196, 0)),
                       radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100,8,196,0.3), rgba(100,8,196, 0) 50%),
@@ -155,15 +157,24 @@ header .nav .indicator .point.active{
     display: flex;
     align-items: center;
     margin: 0rem 4rem 4rem 4rem;
+    box-shadow: rgba(100,8,196, 0.1) 0px 0px 100px 100px,
+                inset 0px 0px 100px rgba(100,8,196, 0.16);
+    border-radius: 4px;
 }
 
 #recommendation .list .item .img{
     background: hsl(0, 0%, 95%);
-    width:5rem;
-    height: 5rem;
     z-index: 1;
     margin-right: -2.5rem;
     border-radius: 4px;
+    overflow: hidden;
+    height: 5rem;
+    width: 5rem;
+}
+
+#recommendation .list .item img{
+    width:calc(100% + 2px);
+    margin-left: -1px;
 }
 
 #recommendation .list .item .desc{
@@ -173,6 +184,15 @@ header .nav .indicator .point.active{
     position: relative;
     z-index: 0;
     border-radius: 4px;
+    padding-left: calc(2.5rem + 1rem);
+}
+
+#recommendation .list .item .desc h3{
+    margin-bottom: 0.5rem;
+}
+
+#recommendation .list .item .desc p{
+    margin-top: 0.5rem;
 }
 
 #location{
