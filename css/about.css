@@ -1,0 +1,64 @@
+@import url('../base/base.css');
+
+
+.container {
+   background-image: linear-gradient(to top, #721aa4 0%, black 80%);
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+.title>p {
+   color: blueviolet;
+   font-size: 70px;
+   text-align: center;
+}
+
+.title2>p {
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+ }
+
+.desc{
+    color: white;
+    text-align: center;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+ }
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row img {
+    width: 32%;
+ }
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{
+   padding:1rem 0.5rem;
+   text-align: center;
+}
+

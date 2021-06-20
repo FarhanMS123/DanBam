@@ -1,0 +1,53 @@
+@import url('../base/base.css');
+
+
+.container {
+   background-image: linear-gradient(to top, #721aa4 0%, black 80%);
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+.title>p {
+   color: blueviolet;
+   font-size: 70px;
+   text-align: center;
+}
+
+.form-page{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#button1{
+    background-color: #1a9d0c;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#button2{
+    background-color: red;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+   padding:1rem 0.5rem;
+   text-align: center;
+}
+
