@@ -30,4 +30,10 @@ Photo by <a href="https://unsplash.com/@dtuksar?utm_source=unsplash&utm_medium=r
 - https://unsplash.com/photos/4FujjkcI40g
 
 Photo by <a href="https://unsplash.com/@victorrutka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Rutka</a> on <a href="https://unsplash.com/s/photos/strawberries-juice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+- https://kimchimari.com/best-korean-desserts-recipes/
+
+## Contributor
+- Nicholas Indra Wijaya (2440098155)
+- Alvin Valentino (2440034246)
+- Farhan Muhammad Sabran (2440060912)

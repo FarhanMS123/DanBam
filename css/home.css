@@ -189,6 +189,7 @@ header .nav .indicator .point.active{
 
 #recommendation .list .item .desc h3{
     margin-bottom: 0.5rem;
+    font-family: 'Clip', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #recommendation .list .item .desc p{
@@ -222,6 +223,7 @@ header .nav .indicator .point.active{
 
 #location .contact h3{
     font-size: 2em;
+    font-family: 'Clip', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer{

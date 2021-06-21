@@ -1,9 +1,17 @@
 @import url('../base/base.css');
 
+.container .title p{
+   margin: 0px 0px 8rem 0px;
+}
+
 
 .container {
-   background-image: linear-gradient(to top, #721aa4 0%, black 80%);
+   background-image: radial-gradient(circle at 100% 100vh, rgba(100,8,196,0.3), rgba(100,8,196, 0)),
+                      radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100,8,196,0.3), rgba(100,8,196, 0) 50%),
+                      linear-gradient(to top, rgba(100,8,196,0.3) 0%, rgba(100,8,196, 0) 30%);
+   /* background-image: linear-gradient(to top, #721aa4 0%, black 80%); */
    width: 100%;
+   padding-top: 8rem;
 }
 
 .mb-3 {
