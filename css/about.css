@@ -1,36 +1,42 @@
 @import url('../base/base.css');
 
-body{
-    background-image: radial-gradient(circle at 100% 100vh, rgba(100,8,196,0.3), rgba(100,8,196, 0)),
-                      radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100,8,196,0.3), rgba(100,8,196, 0) 50%),
-                      linear-gradient(to top, rgba(100,8,196,0.3) 0%, rgba(100,8,196, 0) 30%);
+body {
+    background-image: radial-gradient(circle at 100% 100vh, rgba(100, 8, 196, 0.3), rgba(100, 8, 196, 0)),
+        radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100, 8, 196, 0.3), rgba(100, 8, 196, 0) 50%),
+        linear-gradient(to top, rgba(100, 8, 196, 0.3) 0%, rgba(100, 8, 196, 0) 30%);
+    background-attachment: scroll, scroll, scroll;
+    background-position: left top, left top, left top;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /* background-image: linear-gradient(to top, #210240 0%, black 80%); */
+}
+
+.container {
+    background-image: radial-gradient(circle at 100% 100vh, rgba(100, 8, 196, 0.3), rgba(100, 8, 196, 0)),
+        radial-gradient(circle at 19em calc(100vh + 6em + 14em), rgba(100, 8, 196, 0.3), rgba(100, 8, 196, 0) 50%),
+        linear-gradient(to top, rgba(100, 8, 196, 0.3) 0%, rgba(100, 8, 196, 0) 30%);
     background-attachment: scroll, scroll, scroll;
     background-position: left top, left top, left top;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-image: linear-gradient(to top, #210240 0%, black 80%);
-}
-
-.container {
-   background-image: linear-gradient(to top, #210240 0%, black 80%);
-   width: 100%;
-   padding-top: 10px;
-   padding-bottom: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
 .title>p {
-   color: blueviolet;
-   font-size: 70px;
-   text-align: center;
+    color: blueviolet;
+    font-size: 70px;
+    text-align: center;
 }
 
 .title2>p {
     color: blueviolet;
     font-size: 50px;
     text-align: center;
- }
+}
 
-.desc{
+.desc {
     color: white;
     text-align: center;
     right: 0px;
@@ -48,7 +54,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
- }
+}
 
 .row {
     width: 100%;
@@ -59,18 +65,19 @@ body{
 .row img {
     width: 32%;
 }
-.social{
+
+.social {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-footer{
-   padding:1rem 0.5rem;
-   text-align: center;
+footer {
+    padding: 1rem 0.5rem;
+    text-align: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     @import url('../base/base.css');
 
     .container {
@@ -83,9 +90,9 @@ footer{
 
 
     .title>p {
-    color: blueviolet;
-    font-size: 4rem;
-    text-align: center;
+        color: blueviolet;
+        font-size: 4rem;
+        text-align: center;
     }
 
     .title2>p {
@@ -94,7 +101,7 @@ footer{
         text-align: center;
     }
 
-    .desc{
+    .desc {
         color: white;
         text-align: center;
         right: 0px;
@@ -124,21 +131,21 @@ footer{
         width: 32%;
     }
 
-    .social{
+    .social {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .social img{
+    .social img {
         width: 50px;
         height: 50px;
         border-radius: 10px;
 
     }
 
-    footer{
-        padding:1rem 0.5rem;
+    footer {
+        padding: 1rem 0.5rem;
         text-align: center;
     }
 }

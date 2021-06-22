@@ -1,5 +1,5 @@
 # DanBam
-
+This project purpossed for College Project and never be used for Commerence.
 ## Resources
 - https://fonts.google.com/icons?icon.query=menu
 - https://www.1001fonts.com/clip-font.html
@@ -32,6 +32,8 @@ Photo by <a href="https://unsplash.com/@dtuksar?utm_source=unsplash&utm_medium=r
 Photo by <a href="https://unsplash.com/@victorrutka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Rutka</a> on <a href="https://unsplash.com/s/photos/strawberries-juice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 - https://kimchimari.com/best-korean-desserts-recipes/
+
+> Another reference and asset may not included here. Feel free to open discussion to put your name in our documentation.
 
 ## Contributor
 - Nicholas Indra Wijaya (2440098155)

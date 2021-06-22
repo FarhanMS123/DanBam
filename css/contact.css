@@ -7,7 +7,7 @@ body{
     background-attachment: scroll, scroll, scroll;
     background-position: left top, left top, left top;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-image: linear-gradient(to top, #210240 0%, black 80%);
+    /* background-image: linear-gradient(to top, #210240 0%, black 80%); */
 }
 
 .container {    
